@@ -19,6 +19,7 @@ Citizen.CreateThread(function ()
                         if has_value(discordRoles, role.roleId) then
                             canHaveWeap += 1
                            break
+			end
                     end
 
                 end
